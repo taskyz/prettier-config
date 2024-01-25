@@ -1,7 +1,7 @@
 {
   "name": "@taskyz/prettier-config",
   "version": "1.0.1",
-  "description": "Avicenne Studio's shareable Prettier configuration",
+  "description": "Taskyz's shareable Prettier configuration",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@taskyz/eslint-config": "^1.0.10",
+    "@taskyz/prettier-config": "*",
     "eslint": "^8.56.0",
     "prettier": "^3.2.4"
   },

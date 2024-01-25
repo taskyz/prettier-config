@@ -12,7 +12,6 @@ npm install -D @taskyz/prettier-config
 
 To use the library, you'll need to add the following to your `.prettierrc.json` file:
 
-
 ```json
 "@taskyz/prettier-config"
 ```
