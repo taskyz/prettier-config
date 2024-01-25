@@ -1,0 +1,32 @@
+{
+  "name": "@taskyz/prettier-config",
+  "version": "1.0.2",
+  "description": "Avicenne Studio's shareable Prettier configuration",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taskyz/prettier-config.git"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "prettier",
+    "prettierconfig"
+  ],
+  "author": "Faris CHTATOU <faris.manage@gmail.com> (https://www.faris.chtatou.org)",
+  "license": "ISC",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@taskyz/eslint-config": "^1.0.10",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.4"
+  },
+  "peerDependencies": {
+    "prettier": ">= 3"
+  }
+}
